@@ -9,7 +9,7 @@ import com.google.firebase.ktx.Firebase
 import com.google.firebase.storage.ktx.storage
 
 class PictureActivity : AppCompatActivity() {
-    val storageRef = Firebase.storage("gs://sanechka-cbe19.appspot.com/").reference
+    val storageRef = Firebase.storage("gs://test-55397.appspot.com/").reference
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

@@ -41,7 +41,7 @@ class MainActivity : AppCompatActivity() {
     private val REQUEST_CODE_CAMERA = 13
     private val REQUEST_CODE_GALLERY = 11
 
-    var storage = Firebase.storage("gs://sanechka-cbe19.appspot.com/")
+    var storage = Firebase.storage("gs://test-55397.appspot.com/")
 
     var currentTimeMillis = 0L
 
